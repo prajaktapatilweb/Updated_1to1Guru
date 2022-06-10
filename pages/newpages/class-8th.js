@@ -12,6 +12,7 @@ import Eighthaccordian from '../../components/classcomponents/Eighthaccordian'
 export default function class8th() {
     return (
         <div>
+            <h1>sdfsdf</h1>
             <Navbar1 />
             <Eighthhero />
             <Eighthdetails />
