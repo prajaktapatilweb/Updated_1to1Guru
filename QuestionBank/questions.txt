@@ -1,0 +1,16 @@
+NEET
+P  5
+C  5
+B  10 
+Time 30 min
+IITJEE
+P  5 + 2
+C  5 + 2
+M  5 + 2
+Time 50 min
+MHTCET
+P  7
+C 7
+M 8
+Time 25 Min
+
