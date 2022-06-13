@@ -16,7 +16,7 @@ export default function eightMathCbse() {
                 <Container>
                     <h5>
                         <span className="font-weight-bold text-warning display-7">
-                            CBSE Syllabus for Class 8 Math -{" "}
+                            CBSE Syllabus for Class 8 Math - {" "}
                         </span>{" "}
                         Early start always helps students to perform better in understanding
                         the concepts better and score good marks in the final examination.

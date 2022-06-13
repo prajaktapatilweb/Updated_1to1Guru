@@ -10,6 +10,13 @@ export const cjee = "/courses/iit-jee"
 export const ccet = "/courses/mht-cet"
 export const summercamp = "/summercamp"
 
+export const class8 = "/newpages/class-8th"
+export const class9 = "/newpages/nine_class/class-9th"
+export const class10 = "/newpages/ten_class/class-10th"
+
+
+
+
 export const mathcbse8n = "/i/class8-cbse-math"
 export const mathcbse8 = "/newpages/eightMathCbse"
 export const englishcbse8 = "/newpages/eightEnglishCbse"

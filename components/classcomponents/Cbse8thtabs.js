@@ -128,7 +128,7 @@ export default function Cbse8thtabs() {
                     </ol>
                   </p>
 
-                  <Link href={sciencecbse8}>
+                  <Link href={mathcbse8}>
                     <a target="_blank" style={{ color: "blue" }}>
                       For More Details of CBSE Syllabus for Class 8 Science -
                     </a>

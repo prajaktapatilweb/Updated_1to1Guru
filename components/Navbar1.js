@@ -9,7 +9,7 @@ import {
   cjee,
   ccet,
   weektest,
-  testseries, summercamp
+  testseries, summercamp, homibhabha, olympiad, class8, class9, class10
 } from "../components/Link";
 import Link from "next/link";
 // JavaScript plugin that hides or shows a component based on your scroll
@@ -195,6 +195,194 @@ class Navbar1 extends React.Component {
                       </Link>
                     </DropdownMenu>
                   </UncontrolledDropdown>
+
+
+
+                  <UncontrolledDropdown inNavbar nav>
+                    <DropdownToggle nav caret style={{ paddingRight: "0px" }}>
+                      {/* Courses */}
+                      <span className="text-white"
+                      // href="#"
+                      // className="nav-link-inner--text"
+                      // style={{ border: "0px" ,padding:"0px",margin:"0px" }}
+                      >
+                        Classes <HiChevronDown size="1.5em" className="d-lg-none" />
+                      </span>
+                    </DropdownToggle>
+                    <DropdownMenu end>
+                      <Link href={class8} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          {" "}
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            Class 8{" "}
+                          </a>
+                        </DropdownItem>
+                      </Link>{" "}
+                      <Link href={class9} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            Class 9
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                      {/* <DropdownItem divider /> */}{" "}
+                      <Link href={class10} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            Class 10
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                      <Link href={summercamp} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            Class 11
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                      <Link href={summercamp} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            Class 12
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
+
+
+                  <UncontrolledDropdown inNavbar nav>
+                    <DropdownToggle nav caret style={{ paddingRight: "0px" }}>
+                      {/* Courses */}
+                      <span className="text-white"
+                      // href="#"
+                      // className="nav-link-inner--text"
+                      // style={{ border: "0px" ,padding:"0px",margin:"0px" }}
+                      >
+                        Board <HiChevronDown size="1.5em" className="d-lg-none" />
+                      </span>
+                    </DropdownToggle>
+                    <DropdownMenu end>
+                      <Link href={cneet} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          {" "}
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            CBSE{" "}
+                          </a>
+                        </DropdownItem>
+                      </Link>{" "}
+                      <Link href={cjee} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            Maharashtra State Board
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                      {/* <DropdownItem divider /> */}{" "}
+                      <Link href={ccet} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            ICSE
+                          </a>
+                        </DropdownItem>
+                      </Link>
+
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
+
+
+                  <UncontrolledDropdown inNavbar nav>
+                    <DropdownToggle nav caret style={{ paddingRight: "0px" }}>
+                      {/* Courses */}
+                      <span className="text-white"
+                      // href="#"
+                      // className="nav-link-inner--text"
+                      // style={{ border: "0px" ,padding:"0px",margin:"0px" }}
+                      >
+                        Exam <HiChevronDown size="1.5em" className="d-lg-none" />
+                      </span>
+                    </DropdownToggle>
+                    <DropdownMenu end>
+                      <Link href={cneet} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          {" "}
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            NEET{" "}
+                          </a>
+                        </DropdownItem>
+                      </Link>{" "}
+                      <Link href={cjee} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            IIT-JEE
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                      {/* <DropdownItem divider /> */}{" "}
+                      <Link href={ccet} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            MHT-CET
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                      <Link href={olympiad} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            Olympiad
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                      <Link href={homibhabha} passHref>
+                        <DropdownItem style={{ marginLeft: "0px" }}>
+                          <a
+                            className="nav-link-inner--text"
+                            style={{ color: "black", border: "0px" }}
+                          >
+                            Dr Homi Bhabha
+                          </a>
+                        </DropdownItem>
+                      </Link>
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
+
+
                   <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav caret style={{ paddingRight: "0px" }} >
                       <span className="text-white" >
