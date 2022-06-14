@@ -10,13 +10,13 @@ export default function Teammainret() {
         <div>
             <Container>
                 <Row>
-                    <div className="col-sm-6 offset-sm-3 mt-4 mb-4">
+                    {/* <div className="col-sm-6 offset-sm-3 mt-4 mb-4">
                         <h2 className="text-center">Our Expert Team</h2>
                         <p className="text-center">
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry
                         </p>
-                    </div>
+                    </div> */}
                 </Row>
                 <Row>
                     <Col lg="4">
